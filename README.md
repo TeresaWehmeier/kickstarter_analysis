@@ -16,6 +16,9 @@ A Kickstarter client requests a deeper analysis of campaign outcomes based on cr
 Descriptive statistics were developed based on the data set to determine the validity of the data and to identify potential outliers and errors. General cleanup and proper formatting was performed and subcategories were extracted to examine so a more detailed analysis of the “play” subset could be developed.
 
 ### Analysis of Outcomes Based on Launch Date
+
+[Outcomes based on launch] https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Outcomes_based_On_Launch_date.png
+
 1. The most successful launch month for theater campaigns occurs in May, or 67% successful
 2. Great Britain has a higher success rate for June launch months, while the U.S. high launch month is May
 3. The least successful launch month for theater campaigns is in December at only 49% successful
