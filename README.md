@@ -13,10 +13,10 @@ Initial discoveries include:
 A Kickstarter client requests a deeper analysis of campaign outcomes based on crowd source launch dates and funding goals. The client’s crowd sourcing interest area lies with the category of theaters and specifically with the sub-category of plays.
 
 ## Analysis and Challenges
-Descriptive statistics were developed based on the data set to determine the validity of the data and to identify potential outliers and errors. General cleanup of formatting was performed and subcategories were extracted to examine in more detail the “play” subcategory results.
+Descriptive statistics were developed based on the data set to determine the validity of the data and to identify potential outliers and errors. General cleanup of formatting was performed and subcategories were extracted to examine in more detail the “play” subcategory.
 
 ### Analysis of Outcomes Based on Launch Date
-Using the charts and tables below, trends based on the launch date of a campaign were evaluated. The most successful launch dates for the theater category were in May and June. Least successful launch dates occurred in December. Further analysis based on the campaign's country of origin reveals that the U.S. had the most theater campaigns, with Great Britain next highests at about half of the U.S. number.
+Using the charts and tables below, launch date trends were evaluated. The most successful launch dates for the theater category were in May and June. Least successful launch dates occurred in December. Further analysis based on the campaign's country of origin reveals that the U.S. had the most theater campaigns, with Great Britain next highests at about half of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
 
 Graph of theater outcomes based on launch: https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/theater_outcomes_vs_launch.png
 
