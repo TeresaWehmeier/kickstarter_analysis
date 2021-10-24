@@ -1,8 +1,7 @@
 # An Analysis of Kickstarter Campaigns
 ## Overview of Project
 
-An analysis of crowd sourcing outcomes conducted over a period of two days utilizes data provided by Kickstarter. The data includes over 4,000 crowd sourcing campaigns broken down into 9 different categories and over 40 sub-categories. This project focuses on the “theater” category, which represents 38% of the entire data set and is the most popular project category at nearly double the next closest “music” category.
-Initial discoveries include:
+An analysis of crowd sourcing goal outcomes conducted over a period of two days utilizes data provided by Kickstarter. The data includes over 4,000 crowd sourcing campaigns broken down into 9 different categories and over 40 sub-categories. This project focuses on the “theater” category, which represents 38% of the entire data set and is the most popular project category at nearly double the next closest category. Initial discoveries include:
 
 * Of the nearly 1400 theater campaigns, over 900 occurred in the US.
 * Great Britain is a distant second behind the US in theater crowd sourcing campaigns at just under 360.
@@ -28,10 +27,12 @@ Theater outcome success rates based on launch month - Great Britain data: https:
 1. The most successful launch month for theater campaigns occurs in May, of which 67% are successful.
 2. June and April also experience higher than average campaign success.
 3. Great Britain has a higher success rate for June launch months, while the U.S. highest successful launch month is May.
-4. The least successful launch month for theater campaigns is in December at only 49% successful; lower campaign success rates are consistent across all countries.
+4. The least successful launch month for theater campaigns is in December at only 49% successful; lower campaign success rates based on launch date are consistent across all countries.
 5. Although Great Britain has only about 50% of the theater campaign market, their campaign success rates run much higher overall; Great Britain campaign success is 73% for all years and months launched, compared to only 58% in the U.S.
 
 ### Analysis of Outcomes Based on Goals
+
+
 
 ### Challenges and Difficulties Encountered
 
