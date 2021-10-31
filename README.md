@@ -21,13 +21,13 @@ Graph of theater outcomes based on launch:
 
 <img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Theater_Outcomes_vs_Launch.png" width="60%" height="40%">
 
-Table of theater outcome success rates based on launch month - United States data:
+Graph of theater outcome success rates based on launch month - United States data:
 
-<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/theater_plays_launch_date_success_rates_US.png" width="60%" height="40%">
+<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Theater_Outcomes_vs_Launch_US.png" width="60%" height="40%">
 
-Theater outcome success rates based on launch month - Great Britain data:
+Graph of theater outcome success rates based on launch month - Great Britain data:
 
-<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/theater_plays_launch_date_success_rates_gb.png" width="60%" height="40%">
+<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Theater_Outcomes_vs_Launch_GB.png" width="60%" height="40%">
 
 #### Conclusions Based on Launch Dates
 1. The most successful launch month for theater campaigns occurs in May, of which 67% are successful.
