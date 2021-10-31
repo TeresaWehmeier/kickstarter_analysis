@@ -12,7 +12,14 @@ An analysis of crowd sourcing goal outcomes conducted over a period of two days 
 A Kickstarter client requests a deeper analysis of campaign outcomes based on crowd source launch dates and funding goals. The client’s crowd sourcing interest area is the category of theaters and specifically with the sub-category of plays.
 
 ## Analysis and Challenges
-Descriptive statistics were developed based on the data set to determine the validity of the data and to identify potential outliers and errors. General formatting was performed and subcategories were extracted to examine in more detail the “play” subcategory.
+The following actions were performed on the data for analysis:
+1. The targeted data in the Kickstarter data set was Category and Subcategory theater/ plays. Because this data was provided as a single column of data, the data was split into a category and subcategory for more detailed analysis.
+2. The dates provided for the start and end launch dates were timestamped, so the dates were converted to a ledgible date with the Excel formula: =(((timestamp_date)/60)/24)+DATE(1970,1,1). This conversion allowed for analysis of the launch dates to be presented in years and months.
+3. 
+
+Mean, median and Interquartile Ranges (IQR) were developed based on the data set to determine the validity of the data and to identify successful goal ranges and launch dates. The image below is a statistical comparison of goals and pledges by outcome:
+
+<img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/descriptive_statistics_theater_plays.png" width="40%" height="40%">
 
 ### Analysis of Outcomes Based on Launch Date
 Using the charts and tables below, launch date trends were evaluated. The most successful launch dates for the theater category were in May and June. Least successful launch dates occurred in December. Further analysis based on the campaign's country of origin shows the U.S. had the most theater campaigns, with Great Britain next highests at 39% of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
