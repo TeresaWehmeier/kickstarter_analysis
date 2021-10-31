@@ -20,7 +20,7 @@ Pivot tables and chart were developed to get a snapshot of the entire data set. 
 
 #### Parent Category by Outcomes
 
-<img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/parent_category_by_outcomes.png" width="60%" height="40%"
+<img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/parent_category_by_outcomes.png" width="60%" height="40%">
 
 
 Mean, median and Interquartile Ranges (IQR) were developed based on the data set to determine the validity of the data and to identify successful goal ranges and launch dates. The image below is a statistical comparison of goals and pledges by outcome:
