@@ -23,7 +23,7 @@ Table of theater outcome success rates based on launch month - United States dat
 
 Theater outcome success rates based on launch month - Great Britain data: https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/theater_plays_launch_date_success_rates_gb.png
 
-#### Conclusions
+#### Conclusions Based on Launch Dates
 1. The most successful launch month for theater campaigns occurs in May, of which 67% are successful.
 2. June and April also experience higher than average campaign success.
 3. Great Britain has a higher success rate for June launch months, while the U.S. highest successful launch month is May.
