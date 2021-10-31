@@ -4,7 +4,7 @@
 An analysis of crowd sourcing goal outcomes conducted over a period of two days utilizes data provided by Kickstarter. The data includes over 4,000 crowd sourcing campaigns broken down into 9 different categories and over 40 sub-categories. This project focuses on the “theater” category, which represents 38% of the entire data set and is the most popular project category at nearly double the next closest category.
 
 ### Purpose
-A Kickstarter client requests a deeper analysis of campaign outcomes based on crowd source launch dates and funding goals. The client’s crowd sourcing interest area is the category of theaters and specifically with the sub-category of plays.
+A Kickstarter client requests a deeper analysis of campaign outcomes based on crowd source launch dates and funding goals. The client’s crowd sourcing interest area is the category of theaters and specifically in the sub-category of plays.
 
 ## Analysis and Challenges
 The following actions were taken:
