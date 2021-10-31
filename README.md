@@ -15,7 +15,7 @@ A Kickstarter client requests a deeper analysis of campaign outcomes based on cr
 Descriptive statistics were developed based on the data set to determine the validity of the data and to identify potential outliers and errors. General formatting was performed and subcategories were extracted to examine in more detail the “play” subcategory.
 
 ### Analysis of Outcomes Based on Launch Date
-Using the charts and tables below, launch date trends were evaluated. The most successful launch dates for the theater category were in May and June. Least successful launch dates occurred in December. Further analysis based on the campaign's country of origin reveals that the U.S. had the most theater campaigns, with Great Britain next highests at about half of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
+Using the charts and tables below, launch date trends were evaluated. The most successful launch dates for the theater category were in May and June. Least successful launch dates occurred in December. Further analysis based on the campaign's country of origin shows the U.S. had the most theater campaigns, with Great Britain next highests at 39% of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
 
 Graph of theater outcomes based on launch:
 
