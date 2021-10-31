@@ -39,6 +39,7 @@ Graph of theater outcome success rates based on launch month - Great Britain dat
 ### Analysis of Outcomes Based on Goals
 
 Statistical Comarison of Goals and Pledges by Outcome:
+
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/descriptive_statistics_theater_plays.png"> width="60%" height="40%">
 
 
