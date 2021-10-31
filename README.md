@@ -9,7 +9,7 @@ An analysis of crowd sourcing goal outcomes conducted over a period of two days 
 * 66% of all “play” crowd sourcing campaigns met the goal and none were canceled.
 
 ### Purpose
-A Kickstarter client requests a deeper analysis of campaign outcomes based on crowd source launch dates and funding goals. The client’s crowd sourcing interest area lies with the category of theaters and specifically with the sub-category of plays.
+A Kickstarter client requests a deeper analysis of campaign outcomes based on crowd source launch dates and funding goals. The client’s crowd sourcing interest area is the category of theaters and specifically with the sub-category of plays.
 
 ## Analysis and Challenges
 Descriptive statistics were developed based on the data set to determine the validity of the data and to identify potential outliers and errors. General formatting was performed and subcategories were extracted to examine in more detail the “play” subcategory.
@@ -31,12 +31,15 @@ Graph of theater outcome success rates based on launch month - Great Britain dat
 
 #### Conclusions Based on Launch Dates
 1. The most successful launch month for theater campaigns occurs in May, of which 67% are successful.
-2. June and April also experience higher than average campaign success.
+2. June also experiences above average campaign success.
 3. Great Britain has a higher success rate in June, while the United States' highest successful launch month is May.
 4. The least successful launch month for theater campaigns is in December at only 49% successful; these results are consistent across both countries.
-5. Although Great Britain has only about 50% of the theater campaign market, their campaign success rates run much higher overall; Great Britain campaign success is 73% for all years and months launched, compared to only 58% in the U.S.
+5. Although Great Britain has only about 40% of the theater campaign market, their campaign success rates run much higher overall; Great Britain campaign success is 73% for all years and months launched, compared to only 58% in the U.S.
 
 ### Analysis of Outcomes Based on Goals
+
+Statistical Comarison of Goals and Pledges by Outcome:
+<img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/descriptive_statistics_theater_plays.png"> width="60%" height="40%">
 
 
 
