@@ -7,12 +7,12 @@ An analysis of crowd sourcing goal outcomes conducted over a period of two days 
 A Kickstarter client requests a deeper analysis of campaign outcomes based on crowd source launch dates and funding goals. The client’s crowd sourcing interest area is the category of theaters and specifically in the sub-category of plays.
 
 ## Analysis and Challenges
-The following actions were taken:
-### Format and Cleaning Data
-The targeted data in the Kickstarter data set was Category and Subcategory theater/ plays. Because this data was provided as a single column of data, the data was split into a category and subcategory for more detailed analysis. The dates provided for the start and end launch dates were timestamped, so the dates were converted to a ledgible date with the Excel formula: =(((timestamp_date)/60)/24)+DATE(1970,1,1). This conversion allowed for analysis of the launch dates to be presented in years and months.
 
-### Overall Analysis
-Pivot tables and chart were developed to get a snapshot of the entire data set. Initial findings include:
+Formating cleanup: The targeted data in the Kickstarter data set was Category and Subcategory theater/ plays. Because this data was provided as a single column of data, the data was split into a category and subcategory for more detailed analysis. The dates provided for the start and end launch dates were timestamped, so the dates were converted to a ledgible date with the Excel formula: =(((timestamp_date)/60)/24)+DATE(1970,1,1). This conversion allowed for analysis of the launch dates to be presented in years and months.
+
+Overall analysis: Pivot tables and charts were developed to get a snapshot of the entire data set. Charts were developed for Categories Based on Outcomes, Subcategories for Theaters Based on Outcomes, and Play Subcategory Success Rates Based on Goal Ranges. Statistical analysis included finding the mean, median and interquartile range for both successful and failed goals, which suggest goal ranges less than $5000 are most successful.
+
+Initial findings include:
 * Of the nearly 1400 theater campaigns, over 900 occurred in the US.
 * Great Britain is a distant second behind the US in theater crowd sourcing campaigns at just under 360.
 * There are three sub-categories within the theater category; “plays” represents a majority at just under 76%.
@@ -36,7 +36,7 @@ Mean, median and Interquartile Ranges (IQR) were developed to determine the medi
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Outcomes_vs_Goals.png" width="60%" height="40%">
 
 ### Analysis of Outcomes Based on Launch Date
-Using the charts and tables below, launch date trends were evaluated. The most successful launch dates for the theater category were in May and June. Least successful launch dates occurred in December. Further analysis based on the campaign's country of origin shows the U.S. had the most theater campaigns, with Great Britain next highests at 39% of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
+Using the charts and tables below, launch date trends were evaluated. The most successful launch dates for the theater category were in May and June; however, May, June, July and August all experienced similar failed outcome numbers. Least successful launch dates occurred in December. Analysis based on the campaign's country of origin shows the U.S. had the most theater campaigns, with Great Britain next highests at 39% of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
 
 #### Graph of theater outcomes based on launch:
 
@@ -58,13 +58,24 @@ Using the charts and tables below, launch date trends were evaluated. The most s
 5. Although Great Britain has only about 40% of the theater campaign market, their campaign success rates run much higher overall; Great Britain campaign success is 73% for all years and months launched, compared to only 58% in the U.S.
 
 ### Analysis of Outcomes Based on Goals
-To determine the most successful goals, an array was created with the following goal ranges:
-
+To identify the most successful goals, an array was created with the following goal ranges:
+Goal Ranges used for Outcomes Based on Goal Analysis
+Less Than 1000
+1000 to 4999
+5000 to 9999
+10000 to 14999
+15000 to 19999
+20000 to 24999
+25000 to 29999
+30000 to 34999
+35000 to 39999
+40000 to 44999
+45000 to 49999
+Greater than 50000
 
 Statistical Comparison of Goals and Pledges by Outcome:
 
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/descriptive_statistics_theater_plays.png" width="40%" height="40%">
-
 
 
 ### Challenges and Difficulties Encountered
