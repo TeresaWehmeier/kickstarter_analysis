@@ -58,20 +58,8 @@ Using the charts and tables below, launch date trends were evaluated. The most s
 5. Although Great Britain has only about 40% of the theater campaign market, their campaign success rates run much higher overall; Great Britain campaign success is 73% for all years and months launched, compared to only 58% in the U.S.
 
 ### Analysis of Outcomes Based on Goals
-To identify the most successful goals, an array was created with the following goal ranges:
-Goal Ranges used for Outcomes Based on Goal Analysis
-Less Than 1000
-1000 to 4999
-5000 to 9999
-10000 to 14999
-15000 to 19999
-20000 to 24999
-25000 to 29999
-30000 to 34999
-35000 to 39999
-40000 to 44999
-45000 to 49999
-Greater than 50000
+
+To identify the most successful goals, an array was created with the following goal ranges: Less Than 1000, 1000 to 4999, 5000 to 9999, 10000 to 14999, 15000 to 19999, 20000 to 24999, 25000 to 29999, 30000 to 34999, 35000 to 39999, 40000 to 44999, 45000 to 49999, and Greater than 50000.
 
 Statistical Comparison of Goals and Pledges by Outcome:
 
