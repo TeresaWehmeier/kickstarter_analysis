@@ -1,22 +1,24 @@
 # An Analysis of Kickstarter Campaigns
 ## Overview of Project
 
-An analysis of crowd sourcing goal outcomes conducted over a period of two days utilizes data provided by Kickstarter. The data includes over 4,000 crowd sourcing campaigns broken down into 9 different categories and over 40 sub-categories. This project focuses on the “theater” category, which represents 38% of the entire data set and is the most popular project category at nearly double the next closest category.
+An analysis of crowd sourcing goal outcomes conducted over a period of two weeks utilizes data provided by Kickstarter. The data includes over 4,000 crowd sourcing campaigns broken down into 9 different categories and over 40 sub-categories. This project focuses on the “theater” category, which represents 38% of the entire data set and is the most popular project category at nearly double the next closest.
 
 ### Purpose
 A Kickstarter client requests a deeper analysis of campaign outcomes based on crowd source launch dates and funding goals. The client’s crowd sourcing interest area is the category of theaters and specifically in the sub-category of plays.
 
 ## Analysis and Challenges
 
-Formating cleanup: The targeted data in the Kickstarter data set was Category and Subcategory theater/ plays. Because this data was provided as a single column of data, the data was split into a category and subcategory for more detailed analysis. The dates provided for the start and end launch dates were timestamped, so the dates were converted to a ledgible date with the Excel formula: =(((timestamp_date)/60)/24)+DATE(1970,1,1). This conversion allowed for analysis of the launch dates to be presented in years and months.
+Before analysis of the data started, some basic formatting and cleanup occurred. Category and Subcategory theater/ plays was provided as a single column of data, so the column was split into a category and subcategory for more detailed analysis. The dates provided for the start and end launch dates were UNIX timestamped, so the dates were converted to a ledgible date with the Excel formula: =(((timestamp_date)/60)/24)+DATE(1970,1,1). This conversion allowed for analysis of the launch dates to be presented in years and months.
 
-Overall analysis: Pivot tables and charts were developed to get a snapshot of the entire data set. Charts were developed for Categories Based on Outcomes, Subcategories for Theaters Based on Outcomes, and Play Subcategory Success Rates Based on Goal Ranges. Statistical analysis included finding the mean, median and interquartile range for both successful and failed goals, which suggest goal ranges less than $5000 are most successful.
+Pivot tables and charts were developed to get an overview of the data. Charts were developed for Categories Based on Outcomes, Subcategories for Theaters Based on Outcomes, and Play Subcategory Success Rates Based on Goal Ranges. Statistical analysis included finding the mean, median and interquartile range for both successful and failed goals, and a box chart was eventually developed to assist with identifying outliers.
 
 Initial findings include:
 * Of the nearly 1400 theater campaigns, over 900 occurred in the US.
 * Great Britain is a distant second behind the US in theater crowd sourcing campaigns at just under 360.
 * There are three sub-categories within the theater category; “plays” represents a majority at just under 76%.
 * 66% of all “play” crowd sourcing campaigns met the goal and none were canceled.
+
+Two primary charts were created to begin the project analysis for the theater category, subcategory plays. The first was the 
 
 #### Parent Category by Outcomes
 
