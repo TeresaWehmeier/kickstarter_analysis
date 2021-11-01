@@ -26,9 +26,14 @@ Pivot tables and chart were developed to get a snapshot of the entire data set. 
 
 <img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/theater_subcategories_by_outcomes.png" width="60%" height="40%">
 
-Mean, median and Interquartile Ranges (IQR) were developed to determine the median of the data and to identify successful goal ranges. The image below is a statistical comparison of goals and pledges by outcome:
+Mean, median and Interquartile Ranges (IQR) were developed to determine the median of the data and to identify successful goal ranges. 
+
+## Statistical comparison of goals and pledges by outcome
 
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/descriptive_statistics_theater_plays.png" width="40%" height="40%">
+
+#### Outcome Success by Goal Range
+<img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Outcomes_vs_Goals.png" width="60%" height="40%">
 
 ### Analysis of Outcomes Based on Launch Date
 Using the charts and tables below, launch date trends were evaluated. The most successful launch dates for the theater category were in May and June. Least successful launch dates occurred in December. Further analysis based on the campaign's country of origin shows the U.S. had the most theater campaigns, with Great Britain next highests at 39% of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
