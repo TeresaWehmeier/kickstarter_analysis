@@ -4,7 +4,7 @@
 An analysis of crowd sourcing goal outcomes conducted over a period of two weeks utilizes data provided by Kickstarter. The data includes over 4,000 crowd sourcing campaigns broken down into 9 different categories and over 40 sub-categories. This project focuses on the “theater” category, which represents 38% of the entire data set and is the most popular project category at nearly double the next closest.
 
 ### Purpose
-A Kickstarter client requests a deeper analysis of campaign outcomes based on crowd source launch dates and funding goals. The client’s crowd sourcing interest area is the category "theaters" and specifically in the sub-category "plays".
+A Kickstarter client requests a deeper analysis of campaign outcomes based on crowd source launch dates and funding goals. The client’s crowd sourcing interest area is the category "theaters" and specifically in the sub-category "plays". The client also expressed some interest in theater crowd funding launches in Great Britain, so some comparisons to the U.S. theater launches are provided.
 
 ## Analysis and Challenges
 
@@ -50,25 +50,43 @@ Another box chart was created with goals above $6000 removed, which provides a b
 <img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/box_chart_successful_play_goals_with_outliers_6000_over_removed.png" width="60%" height="40%">
 
 ### Analysis of Outcomes Based on Launch Date
-Using the charts and tables below, launch date trends were evaluated. The most successful launch dates for the theater category were in May and June; however, May, June, July and August all experienced similar failed outcome numbers. Least number of successful launch dates occurred in November and December. Analysis based on the campaign's country of origin shows the U.S. had the most theater campaigns, with Great Britain next highests at 39% of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
+Using the charts and tables below, launch date trends were evaluated. The most successful launch dates for the theater category were in May and June; however, May, June, July and August all experienced similar failed outcome numbers. The least number of successful launch dates occurred in December. Analysis based on the campaign's country of origin shows the U.S. had the most theater campaigns, with Great Britain next highests at 39% of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
 
-#### Graph of theater outcomes based on launch:
+#### Graphs of theater outcomes based on launch:
+
+Number of theater outcomes based on launch dates
 
 <img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png" width="60%" height="40%">
 
-#### Graph of theater outcome success rates based on launch month - United States data:
+Percentage of theater outcome success based on launch dates
+
+<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Percentage_Theater_Outcomes_vs_Launch_All.png" width="60%" height="40%">
+
+#### Graph of theater outcome numbers and success rates based on launch month - United States data:
+
+Number of theater outcomes based on launch dates in U.S.
 
 <img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Theater_Outcomes_vs_Launch_US.png" width="60%" height="40%">
 
-#### Graph of theater outcome success rates based on launch month - Great Britain data:
+Percentage of theater outcome success based on launch dates in U.S.
+
+<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Percentage_Theater_Outcomes_vs_Launch_US.png" width="60%" height="40%">
+
+#### Graph of theater outcome numbers and success rates based on launch month - Great Britain data:
+
+Number of theater outcomes based on launch dates in Great Britain
 
 <img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Theater_Outcomes_vs_Launch_GB.png" width="60%" height="40%">
+
+Percentage of theater outcome success based on launch dates in Great Britain
+
+<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Percentage_Theater_Outcomes_vs_Launch_GB.png" width="60%" height="40%">
 
 #### Conclusions Based on Launch Dates
 1. The most launches occur in May, at just under 120 projects launched.
 2. The most successful launch month for theater campaigns occurs in May, of which 67% are successful.
 3. June also experiences above average campaign success, but the majority of these successful launches are in Great Britain.
-4. Great Britain has a higher success rate in May and June, while the United States' highest successful launch month is May.
+4. Great Britain has a higher successful launches in May and June, while the United States' highest successful launch month is May.
 5. The least successful launch month for theater campaigns is in October, which has the highest number of failed lauches; November and December also experience lower success, but also lower theater launches.
 6. Although Great Britain has only about 40% of the theater campaign market, their campaign success rates run much higher overall; Great Britain campaign success is 73% for all years and months launched, compared to only 58% in the U.S. 
 
