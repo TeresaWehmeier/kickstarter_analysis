@@ -8,49 +8,64 @@ A Kickstarter client requests a deeper analysis of campaign outcomes based on cr
 
 ## Analysis and Challenges
 
-Before analysis of the data started, some basic formatting and cleanup occurred. Category and Subcategory theater/ plays was provided as a single column of data, so the column was split into a category and subcategory for more detailed analysis. The dates provided for the start and end launch dates were UNIX timestamped, so the dates were converted to a ledgible date with the Excel formula: =(((timestamp_date)/60)/24)+DATE(1970,1,1). This conversion allowed for analysis of the launch dates to be presented in years and months.
+Before analysis of the data started, some basic formatting and cleanup occurred. Category and Subcategory theater/ plays was provided as a single column of data, so the column was split into two columns, category and subcategory, for more detailed analysis. The dates provided for the start and end launch dates were UNIX timestamped, so were converted to a ledgible date with the Excel formula: =(((timestamp_date)/60)/24)+DATE(1970,1,1). This conversion allowed for analysis of the launch dates to be presented in years and months. Finally, a column was added to the data set to identify the year of the launch date.
 
-Pivot tables and charts were developed to get an overview of the data. Charts were developed for Categories Based on Outcomes, Subcategories for Theaters Based on Outcomes, and Play Subcategory Success Rates Based on Goal Ranges. Statistical analysis included finding the mean, median and interquartile range for both successful and failed goals, and a box chart was eventually developed to assist with identifying outliers.
+Pivot tables and charts were developed to get an overview of the data. Charts include Theater Outcomes Based on Launch Date, and Outcomes Based on Goals. Several more graphs were developed and included in this report as supporting evidence of results.
+
+Statistical analysis includes the mean, median and interquartile range for both successful and failed goals, and a box chart to help identify outliers.
 
 Initial findings include:
 * Of the nearly 1400 theater campaigns, over 900 occurred in the US.
 * Great Britain is a distant second behind the US in theater crowd sourcing campaigns at just under 360.
 * There are three sub-categories within the theater category; “plays” represents a majority at just under 76%.
 * 66% of all “play” crowd sourcing campaigns met the goal and none were canceled.
-
-Two primary charts were created to begin the project analysis for the theater category, subcategory plays. The first was the 
+* The most successful launch date for the theater category is May and June.
+* Great Britain has more successful goals in both May and June; however, the U.S.'s successful launch month is May.
+* Successful goals range between $1000 and $4000.
 
 #### Parent Category by Outcomes
+The parent category chart quickly reveals theater as the most popular category and successful project outcomes.
 
-<img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/parent_category_by_outcomes.png" width="60%" height="40%">
+<img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/parent_category_by_outcomes.png" width="60%" height="40%">
 
 #### Subcategories of Theater Campaign by Outcomes
 
-<img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/theater_subcategories_by_outcomes.png" width="60%" height="40%">
+The subcategories within Theaters also shows plays are by far the most popular and experience successful project outcomes
+.
+<img src = "hhttps://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/theater_subcategories_by_outcomes.png" width="60%" height="40%">
+
+#### Descriptive Statistics
 
 Mean, median and Interquartile Ranges (IQR) were developed to determine the median of the data and to identify successful goal ranges. 
 
-## Statistical comparison of goals and pledges by outcome
+<img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/descriptive_statistics_theater_plays.png" width="40%" height="40%">
 
-<img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/descriptive_statistics_theater_plays.png" width="40%" height="40%">
+#### Box Charts
+Two box charts were built, the first showing all successful goals, including all outliers.
+
+<img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/box_chart_successful_play_goals_with_outliers.png" width="60%" height="40%">
+
+Another box chart was created with goals above $6000 removed, which provides a better distribution of the data around the median.
+
+<img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/box_chart_successful_play_goals_with_outliers_6000_over_removed.png" width="60%" height="40%">
 
 #### Outcome Success by Goal Range
-<img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Outcomes_vs_Goals.png" width="60%" height="40%">
+<img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Resources/Outcomes_vs_Goals.png" width="60%" height="40%">
 
 ### Analysis of Outcomes Based on Launch Date
 Using the charts and tables below, launch date trends were evaluated. The most successful launch dates for the theater category were in May and June; however, May, June, July and August all experienced similar failed outcome numbers. Least successful launch dates occurred in December. Analysis based on the campaign's country of origin shows the U.S. had the most theater campaigns, with Great Britain next highests at 39% of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
 
 #### Graph of theater outcomes based on launch:
 
-<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Theater_Outcomes_vs_Launch.png" width="60%" height="40%">
+<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png" width="60%" height="40%">
 
 #### Graph of theater outcome success rates based on launch month - United States data:
 
-<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Theater_Outcomes_vs_Launch_US.png" width="60%" height="40%">
+<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Theater_Outcomes_vs_Launch_US.png" width="60%" height="40%">
 
 #### Graph of theater outcome success rates based on launch month - Great Britain data:
 
-<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Theater_Outcomes_vs_Launch_GB.png" width="60%" height="40%">
+<img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Theater_Outcomes_vs_Launch_GB.png" width="60%" height="40%">
 
 #### Conclusions Based on Launch Dates
 1. The most successful launch month for theater campaigns occurs in May, of which 67% are successful.
@@ -65,7 +80,7 @@ To identify the most successful goals, an array was created with the following g
 
 Statistical Comparison of Goals and Pledges by Outcome:
 
-<img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/descriptive_statistics_theater_plays.png" width="40%" height="40%">
+<img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/descriptive_statistics_theater_plays.png" width="40%" height="40%">
 
 
 ### Challenges and Difficulties Encountered
