@@ -45,31 +45,31 @@ Using the charts and tables below, the most successful launch dates for the thea
 
 #### Graphs of theater outcomes based on launch:
 
-Number of theater outcomes based on launch dates
+Number of theater outcomes based on launch dates - the graph shows that the highest number of theater projects launched in May, at just under 170 projects.
 
 <img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png" width="60%" height="40%">
 
-Percentage of theater outcome success based on launch dates
+Percentage of theater outcome success based on launch dates - May also has the highest percentage of outcome success at 67%.
 
 <img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Percentage_Theater_Outcomes_vs_Launch_All.png" width="60%" height="40%">
 
-#### Graph of theater outcome numbers and success rates based on launch month - United States data:
+#### Graph of theater outcome numbers and success rates based on launch month - United States data
 
-Number of theater outcomes based on launch dates in U.S.
+Number of theater outcomes based on launch dates in U.S. - May and June have the highest number of projects launched at 96 and 98 respectively.
 
 <img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Theater_Outcomes_vs_Launch_US.png" width="60%" height="40%">
 
-Percentage of theater outcome success based on launch dates in U.S.
+Percentage of theater outcome success based on launch dates in U.S. shows the highest successful outcomes occur in May, at 68%.
 
 <img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Percentage_Theater_Outcomes_vs_Launch_US.png" width="60%" height="40%">
 
 #### Graph of theater outcome numbers and success rates based on launch month - Great Britain data:
 
-Number of theater outcomes based on launch dates in Great Britain
+Number of theater outcomes based on launch dates in Great Britain shows the highest number of projects launched occur in May and June, at 56 and 49 projects respectively.
 
 <img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Theater_Outcomes_vs_Launch_GB.png" width="60%" height="40%">
 
-Percentage of theater outcome success based on launch dates in Great Britain
+Percentage of theater outcome success based on launch dates in Great Britain shows successful outcomes in May and June well over the country's overall average of 73%. These two months are those where the highest number of projects occur, but it is by no means the highest months for goal success.
 
 <img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Percentage_Theater_Outcomes_vs_Launch_GB.png" width="60%" height="40%">
 
@@ -81,7 +81,7 @@ To identify the most successful goal level, an array was created with the goal r
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Resources/Outcomes_vs_Goals.png" width="60%" height="40%">
 
 #### Outcome Based on Goals - Digging Deeper
-This unexpected fluctuation required a deeper look at the data and found a number of outliers above $6000 goal levels. The two box charts below show the successful goals for all plays; the first includes outliers; the second excludes outliers above $6000, which provides a better visual distribution of the data around the median. The outliers distort the successful goal range, and suggests goals above $5000 might be successful; removing the outliers shows that is not the case, and that a goal range of $1000 - $3000 is more realistic.
+This unexpected fluctuation required a deeper look at the data and found a number of outliers above $6000 goal levels. The two box charts below show the successful goals for all plays; the first includes outliers; the second excludes outliers above $6000, which provides a better visual distribution of the data around the median. The outliers distort the successful goal range, and suggest goals above $5000 might be successful; removing the outliers shows that is not the case, and that a goal range of $1000 - $3000 is more realistic.
 
 #### Box Charts
 The first box chart includes outliers.
@@ -92,7 +92,7 @@ The second box chart excludes goals above $6000
 
 <img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/box_chart_successful_play_goals_with_outliers_6000_over_removed.png" width="60%" height="40%">
 
-#### Statistical Comparison of Goals and Pledges by Outcome; includes outliers
+#### Statistical Comparison of Theater/ Plays Goals and Pledges by Outcome Including Outliers
 
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/descriptive_statistics_theater_plays.png" width="40%" height="40%">
 
@@ -105,7 +105,7 @@ There is also some concern with the data set itself. Although some of the data i
 Below are the results derived from the analysis of the Kickstarter data related to the clients specific interests.
 
 ### Conclusions Based on Launch Dates
-1. The most theater launches occur in May, at just under 170 projects launched.
+1. The most theater launches occur in May, where just under 170 projects launched.
 2. The most successful launch month for theater campaigns occurs in May, of which 67% are successful.
 3. Great Britain has higher numbers of successful launches in May and June, while the United States' highest successful launch month is May.
 5. The least successful launch month for theater campaigns is in October, which has a comparatively higher number of failed lauches; November and December also experience lower success, but also much lower numbers of theater launches.
