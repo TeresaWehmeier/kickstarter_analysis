@@ -24,15 +24,15 @@ Initial findings include:
 * Successful goals range between $1000 and $4000.
 
 #### Parent Category by Outcomes
-The parent category chart quickly reveals theater as the most popular category and successful project outcomes.
+The parent category chart shows theater as the most popular category and a large number of successful project outcomes.
 
 <img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/parent_category_by_outcomes.png" width="60%" height="40%">
 
 #### Subcategories of Theater Campaign by Outcomes
 
-The subcategories within Theaters also shows plays are by far the most popular and experience successful project outcomes
-.
-<img src = "hhttps://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/theater_subcategories_by_outcomes.png" width="60%" height="40%">
+The subcategories within theaters also shows plays are by far the most popular, also with a large number of successful project outcomes.
+
+<img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/theater_subcategories_by_outcomes.png" width="60%" height="40%">
 
 #### Descriptive Statistics
 
@@ -50,6 +50,7 @@ Another box chart was created with goals above $6000 removed, which provides a b
 <img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/box_chart_successful_play_goals_with_outliers_6000_over_removed.png" width="60%" height="40%">
 
 #### Outcome Success by Goal Range
+
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Resources/Outcomes_vs_Goals.png" width="60%" height="40%">
 
 ### Analysis of Outcomes Based on Launch Date
