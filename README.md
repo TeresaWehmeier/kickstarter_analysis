@@ -76,6 +76,10 @@ Using the charts and tables below, launch date trends were evaluated. The most s
 
 To identify the most successful goals, an array was created with the goal ranges: Less Than 1000, 1000 to 4999, 5000 to 9999, 10000 to 14999, 15000 to 19999, 20000 to 24999, 25000 to 29999, 30000 to 34999, 35000 to 39999, 40000 to 44999, 45000 to 49999, and Greater than 50000. Using this table with the percentage of outcomes by range, a graph was built that shows where the most successful goals occurred. In the graph the most successful outcomes are clustered around Less than 1000 and 1000 to 4999. The problem with these results is the percentage successful line continues to drop as expected, but then rebounds between 25000 and 49999.
 
+#### Outcome Based on Goals
+
+<img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Resources/Outcomes_vs_Goals.png" width="60%" height="40%">
+
 This unexpected fluctuation required a deeper look at the data and found a significantg number of outliers above $5000 goal levels. The two box charts below show the successful goals for all plays; the first showing a significant number of outliers; the second excludes outliers above $6000, providing a better visual distribution of the data around the median.
 
 #### Box Charts
@@ -87,9 +91,7 @@ The second box chart excludes goals above $6000
 
 <img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/box_chart_successful_play_goals_with_outliers_6000_over_removed.png" width="60%" height="40%">
 
-#### Outcome Based on Goals
 
-<img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Resources/Outcomes_vs_Goals.png" width="60%" height="40%">
 
 Statistical Comparison of Goals and Pledges by Outcome:
 
