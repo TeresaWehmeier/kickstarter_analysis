@@ -8,20 +8,11 @@ A Kickstarter client requests a deeper analysis of campaign outcomes based on cr
 
 ## Analysis and Challenges
 
+### Format and Clean Data
 Before analysis of the data started, some basic formatting and cleanup occurred. Category and Subcategory theater/ plays was provided as a single column of data, so the column was split into two columns, category and subcategory, for more detailed analysis. The dates provided for the start and end launch dates were UNIX timestamped, so were converted to a ledgible date with the Excel formula: =(((timestamp_date)/60)/24)+DATE(1970,1,1). This conversion allowed for analysis of the launch dates to be presented in years and months. Finally, a column was added to the data set to identify the year of the launch date.
 
-Pivot tables and charts were developed to get an overview of the data. Charts include Theater Outcomes Based on Launch Date, and Outcomes Based on Goals. Several more graphs were developed and are included in this report as supporting evidence of results.
-
-Statistical analysis includes the mean, median, standard deviation and interquartile range for both successful and failed goals, and a box chart to help identify outliers.
-
-Initial findings include:
-* Of the nearly 1400 theater campaigns, over 900 occurred in the US.
-* Great Britain is a distant second behind the US in theater crowd sourcing campaigns at just under 360.
-* There are three sub-categories within the theater category; “plays” represent a majority at just under 76%.
-* 66% of all “play” crowd sourcing campaigns met the goal and none were canceled.
-* The most successful launch date for the theater category is May and June.
-* Great Britain has more successful projects in both May and June; however, the U.S.'s successful launch month is May.
-* Successful goals range between $1000 and $4000.
+### Process for Analysis
+Pivot tables and graphs were developed to get an overview of the data. Graphs include Theater Outcomes Based on Launch Date, and Outcomes Based on Goals. Several more graphs were developed and are included in this report as supporting evidence of results. Statistical analysis includes the mean, median, standard deviation and interquartile range for both successful and failed goals, and a box chart to help identify outliers.
 
 #### Parent Category by Outcomes
 The parent category chart shows theater as the most popular category with a large number of successful project outcomes.
@@ -50,7 +41,7 @@ Another box chart was created with goals above $6000 removed, which provides a b
 <img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/box_chart_successful_play_goals_with_outliers_6000_over_removed.png" width="60%" height="40%">
 
 ### Analysis of Outcomes Based on Launch Date
-Using the charts and tables below, launch date trends were evaluated. The most successful launch dates for the theater category were in May and June; however, May, June, July and August all experienced similar failed outcome numbers. The lowest number of successful launch dates occurred in December. Analysis based on the campaign's country of origin shows the U.S. had the most theater campaigns, with Great Britain next highests at 39% of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
+Using the charts and tables below, the most successful launch dates for the theater category are May and June; however, May, June, July and August all experienced similar failed outcome numbers. The lowest number of successful launch dates occurred in December. Analysis based on the campaign's country of origin shows the U.S. had the most theater campaigns, with Great Britain next highests at 39% of the U.S. number; however, Great Britain experiences much higher campaign success rates than the U.S.
 
 #### Graphs of theater outcomes based on launch:
 
@@ -83,14 +74,14 @@ Percentage of theater outcome success based on launch dates in Great Britain
 <img src="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/Percentage_Theater_Outcomes_vs_Launch_GB.png" width="60%" height="40%">
 
 ### Analysis of Outcomes Based on Goals
-
-To identify the most successful goals, an array was created with the goal ranges: Less Than 1000, 1000 to 4999, 5000 to 9999, 10000 to 14999, 15000 to 19999, 20000 to 24999, 25000 to 29999, 30000 to 34999, 35000 to 39999, 40000 to 44999, 45000 to 49999, and Greater than 50000. Using this table with the percentage of outcomes by range, a graph was built that shows where the most successful goals occurred. In the graph, highly successful outcomes (above 70%) are clustered around Less than 1000 and 1000 to 4999. The problem with these results is the percentage successful line drops, but then rebounds between 25000 and 49999, and again at 50000 and greater.
+To identify the most successful goal level, an array was created with the goal ranges: Less Than 1000, 1000 to 4999, 5000 to 9999, 10000 to 14999, 15000 to 19999, 20000 to 24999, 25000 to 29999, 30000 to 34999, 35000 to 39999, 40000 to 44999, 45000 to 49999, and Greater than 50000. Using this table with the percentage of outcomes by range, a graph was built that shows where the most successful goals occurred. In the graph, highly successful outcomes (above 70%) are clustered around Less than 1000 and 1000 to 4999. The problem with these results is the percentage successful line drops, but then rebounds between 25000 and 49999, and again at 50000 and greater.
 
 #### Outcome Based on Goals
 
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Resources/Outcomes_vs_Goals.png" width="60%" height="40%">
 
-This unexpected fluctuation required a deeper look at the data and found a number of outliers above $5000 goal levels. The two box charts below show the successful goals for all plays; the first includes outliers; the second excludes outliers above $6000, which provides a better visual distribution of the data around the median. The outliers distort the successful goal range, and suggests goals above $5000 might be successful; removing the outliers shows that is not the case, and that a goal range of $1000 - $3000 is more realistic.
+#### Outcome Based on Goals - Digging Deeper
+This unexpected fluctuation required a deeper look at the data and found a number of outliers above $6000 goal levels. The two box charts below show the successful goals for all plays; the first includes outliers; the second excludes outliers above $6000, which provides a better visual distribution of the data around the median. The outliers distort the successful goal range, and suggests goals above $5000 might be successful; removing the outliers shows that is not the case, and that a goal range of $1000 - $3000 is more realistic.
 
 #### Box Charts
 The first box chart includes outliers.
@@ -101,7 +92,7 @@ The second box chart excludes goals above $6000
 
 <img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/box_chart_successful_play_goals_with_outliers_6000_over_removed.png" width="60%" height="40%">
 
-Statistical Comparison of Goals and Pledges by Outcome; includes outliers
+#### Statistical Comparison of Goals and Pledges by Outcome; includes outliers
 
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/descriptive_statistics_theater_plays.png" width="40%" height="40%">
 
