@@ -84,7 +84,7 @@ Percentage of theater outcome success based on launch dates in Great Britain
 
 ### Analysis of Outcomes Based on Goals
 
-To identify the most successful goals, an array was created with the goal ranges: Less Than 1000, 1000 to 4999, 5000 to 9999, 10000 to 14999, 15000 to 19999, 20000 to 24999, 25000 to 29999, 30000 to 34999, 35000 to 39999, 40000 to 44999, 45000 to 49999, and Greater than 50000. Using this table with the percentage of outcomes by range, a graph was built that shows where the most successful goals occurred. In the graph the most successful outcomes are clustered around Less than 1000 and 1000 to 4999. The problem with these results is the percentage successful line continues to drop as expected, but then rebounds between 25000 and 49999, and again at 50000 and greater.
+To identify the most successful goals, an array was created with the goal ranges: Less Than 1000, 1000 to 4999, 5000 to 9999, 10000 to 14999, 15000 to 19999, 20000 to 24999, 25000 to 29999, 30000 to 34999, 35000 to 39999, 40000 to 44999, 45000 to 49999, and Greater than 50000. Using this table with the percentage of outcomes by range, a graph was built that shows where the most successful goals occurred. In the graph, highly successful outcomes (above 70%) are clustered around Less than 1000 and 1000 to 4999. The problem with these results is the percentage successful line drops, but then rebounds between 25000 and 49999, and again at 50000 and greater.
 
 #### Outcome Based on Goals
 
