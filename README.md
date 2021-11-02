@@ -90,7 +90,7 @@ To identify the most successful goals, an array was created with the goal ranges
 
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Resources/Outcomes_vs_Goals.png" width="60%" height="40%">
 
-This unexpected fluctuation required a deeper look at the data and found a significantg number of outliers above $5000 goal levels. The two box charts below show the successful goals for all plays; the first showing a significant number of outliers; the second excludes outliers above $6000, providing a better visual distribution of the data around the median. The outliers were distorting the successful goal range that suggests goals above $5000 might be successful; removing the outliers shows that is not the case, and that a goal range of $1000 - $3500 is more realistic.
+This unexpected fluctuation required a deeper look at the data and found a number of outliers above $5000 goal levels. The two box charts below show the successful goals for all plays; the first includes outliers; the second excludes outliers above $6000, which provides a better visual distribution of the data around the median. The outliers distort the successful goal range, and suggests goals above $5000 might be successful; removing the outliers shows that is not the case, and that a goal range of $1000 - $3500 is more realistic.
 
 #### Box Charts
 The first box chart includes outliers.
@@ -101,12 +101,12 @@ The second box chart excludes goals above $6000
 
 <img src = "https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/box_chart_successful_play_goals_with_outliers_6000_over_removed.png" width="60%" height="40%">
 
-Statistical Comparison of Goals and Pledges by Outcome, which includes outliers
+Statistical Comparison of Goals and Pledges by Outcome; includes outliers
 
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/descriptive_statistics_theater_plays.png" width="40%" height="40%">
 
 ### Challenges and Difficulties Encountered
-Some of the challenges in analyzing the data are that the goals for theater projects have a range of $1 through $100,000 or more, and that some of these large goals were met. This variance can cause outliers to occur, which it did during the development of this report. Although these outliers are not excluded from the data except to show outliers, further analysis may need to be done without the outliers, and perhaps a deeper dive into the outliers themselves may reveal why some of these higher goals were achieved.
+Some of the challenges in analyzing the data are that the goals for theater projects have a range of $1 through $100,000 or more, and that some of these large goals were met. This variance signifies outiers, which appeared during the development of this report. Although these outliers are not excluded from the data except to identify where they exist, further analysis may need to be done without the outliers, and perhaps a deeper dive into the outliers themselves may reveal why some of these higher goals were achieved.
 
 There is also some concern with the data set itself. Although some of the data in the file is intuitive, there are some elements that are not defined, and may or may not have an impact on the results. For example, there was an associated column for all projects labeled Spotlight. This column may have an impact on the success of a project, but since it is unclear what this boolean column represents, it is not used in the analysis.
 
