@@ -106,7 +106,7 @@ Statistical Comparison of Goals and Pledges by Outcome; includes outliers
 <img src ="https://github.com/TeresaWehmeier/kickstarter_analysis/blob/main/Images/descriptive_statistics_theater_plays.png" width="40%" height="40%">
 
 ### Challenges and Difficulties Encountered
-Some of the challenges in analyzing the data are that the goals for theater projects have a range of $1 through $100,000 or more, and that some of these large goals were met. This variance signifies outiers, which appeared during the development of this report. Although these outliers are not excluded from the data except to identify where they exist, further analysis may need to be done without the outliers, and perhaps a deeper dive into the outliers themselves may reveal why some of these higher goals were achieved.
+A challenge in analyzing the data is the goals for theater projects have a range of $1 through $100,000 or more, and that some of these large goals were met. This variance signifies outiers, which surfaced during the development of this report. Although these outliers are not excluded from the data except to identify where they exist and visualize the data without them, further analysis may need to be done without the outliers, and perhaps a deeper dive into the outliers themselves may reveal why some of these higher goals were achieved.
 
 There is also some concern with the data set itself. Although some of the data in the file is intuitive, there are some elements that are not defined, and may or may not have an impact on the results. For example, there was an associated column for all projects labeled Spotlight. This column may have an impact on the success of a project, but since it is unclear what this boolean column represents, it is not used in the analysis.
 
@@ -122,4 +122,12 @@ Below are the results derived from the analysis of the Kickstarter data related 
 7. Although there are fewer theater projects crowd sourced in Great Britain, the higher success rates (73% overall) would suggests it is a good location for theater crowd sourcing campaigns.
 
 ### Conclusions Based on Goal Outcomes
-* 
+1. Goals for play projects experience success rates above 70% in the ranges of Less than $1000 and $1000 - $4999. 
+2. The best chance of a successful goal outcome is in the range of $1000 - $4000.
+3. The most successful goal level is between $2500 and $3500.
+
+### Limitations of the Data
+The data is provided as is, with no definitions included. There may be other factors that determine goal success in the data set, but without a full understanding of those elements, they cannot be used in the analysis. In addition, the goals were assumed to be U.S. dollars; however, a country currency column in the data may suggest the goal value should be converted. If the goal is not U.S. dollars, it could flaw the results.
+
+### Other Possible Analysis
+Although outside the scop of this report, it would be interesting to dig deeper into a comparison between goal levels and launch dates to look for trends between the two. If a definition of all data in the data set were provided, there may be other elements that contribute to the success or failure of a project, and would be interesting to explore.
